@@ -6,11 +6,11 @@
   "description": "Use not default media player.",
 
   "browser_action": {
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_icon": "img/icon.png"
   },
  "content_scripts": [{
         "matches":    ["*://*/*"],
         "js":         ["content.js"]
-    }],
-  "permissions": ["tabs"]
+    }]
 }
