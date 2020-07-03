@@ -1,14 +1,20 @@
 {
   "manifest_version": 2,
-  "version": "1.0.1",
+  "version": "1.0.2",
 
-  "name": "notdefaultmediaplayer",
-  "description": "Use not default media player.",
+  "name": "Change default media player",
+  "description": "This extension changes the default media player in Chrome. The new player provides more comfortable control panel for usage.",
 
   "browser_action": {
     "default_popup": "index.html",
     "default_icon": "img/icon.png"
   },
+  
+  "icons": { "16": "img/icon16.png",
+           "48": "img/icon48.png",
+          "128": "img/icon128.png",
+          "512": "img/icon.png" },
+  
  "content_scripts": [{
         "matches":    ["*://*/*"],
         "js":         ["content.js"]
