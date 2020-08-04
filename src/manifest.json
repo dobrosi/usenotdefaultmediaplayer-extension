@@ -1,11 +1,20 @@
 {
-  "name": "CatBlock",
+  "name": "Change default media player",
   "version": "1.0.3",
-  "description": "I can't has cheezburger!",
-  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "description": "This extension changes the default media player in Chrome. The new player provides more comfortable control panel for usage.",
+  "icons": { "16": "img/icon16.png",
+           "48": "img/icon48.png",
+          "128": "img/icon128.png",
+          "512": "img/icon.png" },
+
+  "permissions": ["webRequest", "webRequestBlocking", "*://*/*.m3u"],
   "background": {
     "scripts": ["content.js"]
   },
-
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "content_scripts": [{
+    "matches":    ["*://*/*"],
+    "js":         ["player.js"]
+  }],        
   "manifest_version": 2
 }

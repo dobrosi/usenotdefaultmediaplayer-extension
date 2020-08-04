@@ -1,20 +1,10 @@
-// Copyright (c) 2012 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
-// Simple extension to replace lolcat images from
-// http://icanhascheezburger.com/ with loldog images instead.
-
 chrome.webRequest.onBeforeRequest.addListener(
   function(info) {
-    console.log("Cat intercepted: " + info.url);
-    return {redirectUrl: chrome.extension.getURL("index.html")};
+    return {redirectUrl: chrome.extension.getURL("player.html")};
   },
-  // filters
   {
     urls: [
-      "https://*"
+      "*://*/*.m3u"
     ]
   },
-  // extraInfoSpec
   ["blocking"]);
