@@ -7,14 +7,11 @@
           "128": "img/icon128.png",
           "512": "img/icon.png" },
 
-  "permissions": ["webRequest", "webRequestBlocking", "*://*/*.m3u"],
+  "permissions": ["webRequest", "webRequestBlocking", "*://*/*"],
   "background": {
     "scripts": ["content.js"]
   },
   "content_security_policy": "script-src 'self' https://cdn.plyr.io; object-src 'self'",
-  "content_scripts": [{
-    "matches":    ["*://*/*"],
-    "js":         ["player.js"]
-  }],        
+       
   "manifest_version": 2
 }

@@ -1,0 +1,37 @@
+#EXTM3U
+#EXTINF:99, Andris live
+https://streams.radio.co/sdc9cfaf77/listen
+#EXTINF:0, Andris last
+https://pgy.no-ip.hu/resources/music-andris.mp3
+#EXTINF:1, Andris hétfő
+https://pgy.no-ip.hu/resources/music-andris-1.mp3
+#EXTINF:2, Andris kedd
+https://pgy.no-ip.hu/resources/music-andris-2.mp3
+#EXTINF:3, Andris szerda
+https://pgy.no-ip.hu/resources/music-andris-3.mp3
+#EXTINF:4, Andris csütörtök
+https://pgy.no-ip.hu/resources/music-andris-4.mp3
+#EXTINF:5, Andris péntek
+https://pgy.no-ip.hu/resources/music-andris-5.mp3
+#EXTINF:6, Andris szombat
+https://pgy.no-ip.hu/resources/music-andris-6.mp3
+#EXTINF:7, Andris vasárnap
+https://pgy.no-ip.hu/resources/music-andris-7.mp3
+#EXTINF:199, Ildi live
+http://s7.radioparty.pl:8000
+#EXTINF:100, Ildi last
+https://pgy.no-ip.hu/resources/music-ildi.mp3
+#EXTINF:101, Ildi hétfő
+https://pgy.no-ip.hu/resources/music-ildi-1.mp3
+#EXTINF:102, Ildi kedd
+https://pgy.no-ip.hu/resources/music-ildi-2.mp3
+#EXTINF:103, Ildi szerda
+https://pgy.no-ip.hu/resources/music-ildi-3.mp3
+#EXTINF:104, Ildi csütörtök
+https://pgy.no-ip.hu/resources/music-ildi-4.mp3
+#EXTINF:105, Ildi péntek
+https://pgy.no-ip.hu/resources/music-ildi-5.mp3
+#EXTINF:106, Ildi szombat
+https://pgy.no-ip.hu/resources/music-ildi-6.mp3
+#EXTINF:107, Ildi vasárnap
+https://pgy.no-ip.hu/resources/music-ildi-7.mp3
