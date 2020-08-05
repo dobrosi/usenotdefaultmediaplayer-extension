@@ -1,11 +1,0 @@
---2020-08-04 16:59:19--  https://pgy.no-ip.hu/resources/index.m3u
-Resolving pgy.no-ip.hu (pgy.no-ip.hu)... 84.236.37.70
-Connecting to pgy.no-ip.hu (pgy.no-ip.hu)|84.236.37.70|:443... connected.
-HTTP request sent, awaiting response... 200 
-Length: 1323 (1,3K) [audio/x-mpegurl]
-Saving to: ‘index.m3u’
-
-index.m3u             0%[                    ]       0  --.-KB/s               index.m3u           100%[===================>]   1,29K  --.-KB/s    in 0s      
-
-2020-08-04 16:59:19 (261 MB/s) - ‘index.m3u’ saved [1323/1323]
-
