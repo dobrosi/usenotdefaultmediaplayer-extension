@@ -7,10 +7,19 @@
           "128": "img/icon128.png",
           "512": "img/icon.png" },
 
-  "permissions": ["webRequest", "webRequestBlocking", "*://*/*"],
-  "background": {
-    "scripts": ["content.js"]
-  },
+  "permissions": ["*://*/*"],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
   "content_security_policy": "script-src 'self' https://cdn.plyr.io; object-src 'self'",
        
   "manifest_version": 2
